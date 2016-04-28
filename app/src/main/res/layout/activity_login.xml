@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jayden.homework2.LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Jiwon&apos;s\nTo-Do List"
+        android:id="@+id/textView"
+        android:textSize="20pt"
+        android:gravity="center"
+        android:textColor="#476abb" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PASSWORD"
+        android:id="@+id/textView2"
+        android:textSize="15pt"
+        android:paddingLeft="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/pass1"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:password="true"
+            android:maxLength="1"
+            android:textSize="20pt"
+            android:gravity="center"
+            android:cursorVisible="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/pass2"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:maxLength="1"
+            android:textSize="20pt"
+            android:gravity="center"
+            android:cursorVisible="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/pass3"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:maxLength="1"
+            android:textSize="20pt"
+            android:gravity="center"
+            android:cursorVisible="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/pass4"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:maxLength="1"
+            android:textSize="20pt"
+            android:gravity="center"
+            android:cursorVisible="false" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정지원"
+        android:id="@+id/textView3"
+        android:textSize="12pt"
+        android:layout_gravity="right"
+        android:paddingRight="20dp"
+        android:textStyle="normal"
+        android:textColor="#040404"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>
